@@ -28,6 +28,7 @@ __NOTE__: Replace "X" with desired scenario, such as: ./bin/fire_and_rain config
 ## Results
 To view simulation output:
 Open grid_log excel file. This shows numerical value of all cells at the given time.
+
 To visualize output:
 Open https://devssim.carleton.ca/cell-devs-viewer/
 Add grid_log and corresponding config file to browser window and click view simulation.
