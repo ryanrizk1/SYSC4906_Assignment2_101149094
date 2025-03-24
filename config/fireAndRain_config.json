@@ -1,0 +1,28 @@
+{
+    "scenario": {
+        "shape": [50, 50],
+        "origin": [0, 0],
+        "wrapped": false
+    },
+
+    "cells": {
+        "default": {
+         "delay": "inertial",
+         "model": "fireAndRain",
+         "state": {"state": 1},
+         "neighborhood": [
+            {"type": "moore", "range": 1}
+         ]
+        },
+      
+        "state": {
+            "state": {"state": 0},
+            "cell_map": [[0, 0]]
+        },
+        "fire": {
+            "state": {"state": 2},
+            "cell_map": [[15, 14], [15, 15], [15, 16]]
+        }     
+        
+    }
+}
