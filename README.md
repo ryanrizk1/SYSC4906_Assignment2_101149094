@@ -27,7 +27,7 @@ __NOTE__: Replace "X" with desired scenario, such as: ./bin/fire_and_rain config
 
 ## Results
 To view simulation output:
-Open grid_log excel file. This shows numerical value of all cells at the given time.
+Open grid_log.csv file. This shows numerical value of all cells at the given time.
 ![image](https://github.com/user-attachments/assets/a307d3f1-c02a-4d7b-bb65-797747c4e7c1)
 
 
